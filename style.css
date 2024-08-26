@@ -1,0 +1,112 @@
+*{
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+@font-face{
+    font-family: Heavitas;
+    src:url("./assets/fonts/Heavitas.ttf")
+    
+}
+
+@font-face{
+    font-family: PixelSplitter-Bold;
+    src:url("./assets/fonts/PixelSplitter-Bold.ttf")
+}
+
+
+body {
+
+    width: 100%;
+}
+
+header {
+width: 100%;
+}
+
+
+
+section {
+    width: 100%;
+}
+nav {
+
+    display: flex;
+    position: fixed;
+    
+    width: 100%;
+    
+    height: 50px;
+    background-color: #211e21;
+    justify-content: space-between;
+    align-items: center;
+   
+    
+}
+
+.logo-holder {
+    color: white;
+
+
+}
+
+.links {
+ display:flex;
+ justify-content: space-between;
+ width: 20%;
+
+
+}
+.links a {
+    color:white;
+    text-decoration:None;
+    font-family: PixelSplitter-Bold;
+    font-size: 12px;
+
+    
+}
+
+.links a:hover {
+ color:#2fa1d1;
+ 
+
+}
+
+
+#hero {}
+
+#hero-title-container {}
+
+#description {}
+
+#title-link a {}
+
+#title-link a:hover {}
+
+#hero-mascott-container {}
+
+
+#projects {}
+
+.project {}
+
+.header-project,
+.body-project,
+.footer-project {}
+
+
+#contact {}
+
+.part-form {}
+
+label {}
+
+input,
+textarea {}
+
+button {}
+
+button:hover {}
+
+
+footer {}
