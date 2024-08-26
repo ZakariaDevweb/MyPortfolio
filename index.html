@@ -12,10 +12,12 @@
 
 <body>
     <header>
-        <section class="menu">
+
+        <div class="menu">
+
             <nav>
                 <div class="logo-holder">
-                 ZAKARIA
+                    ZAKARIA
                 </div>
                 <div class="links">
                     <!-- ici integrer une liste -->
@@ -23,15 +25,19 @@
                     <a href="#hero">A propos</a>
                     <a href="#projects">projets</a>
                     <a href="#contact">contact</a>
-                    
+
                 </div>
             </nav>
-        </section>
+        </div>
     </header>
     <main>
-        <div id="hero">
+        <section id="hero">
             <div id="hero-title-container">
+                <h1>Zakaria Developpeur Front-End</h1>
                 <div id="description">
+                    <p> je m'apelle Zakaria j'ai 22 ans je suis passionné par l'informatique , le developpement web et
+                        notamment la cybersécurité. j'aime la créativité</p>
+
                 </div>
 
                 <div id="title-link">
@@ -42,8 +48,9 @@
 
             </div>
 
-        </div>
+        </section>
         <section id="projects">
+            <h2>MES PROJETS</h2>
             <div class="project">
                 <div class="header-project"></div>
                 <div class="body-project"></div>
@@ -60,23 +67,27 @@
                 <div class="footer-project"></div>
             </div>
         </section>
-        <form id="contact">
-            <div class="part-form">
-                <label for="iname">nom:</label>
-                <imput id="iname" class="cname" name="nname" placeholder="tartanpion"></imput>
+        <section>
+            <h2>CONTACTEZ-MOI</h2>
+            <form id="contact">
+                <div class="part-form">
+                    <label for="iname">nom:</label>
+                    <imput id="iname" class="cname" name="nname" placeholder="tartanpion"></imput>
 
-            </div>
-            <div class="part-form">
-                <label for="firstname">Prenom:</label>
-                <imput id="firstname" class="cfirstname" name="nfirstname" placeholder="tartanpion"></imput>
-            </div>
+                </div>
+                <div class="part-form">
+                    <label for="firstname">Prenom:</label>
+                    <imput id="firstname" class="cfirstname" name="nfirstname" placeholder="tartanpion"></imput>
+                </div>
 
-            <div class="part-form">
-                <label for="imessage">Message:</label>
-                <textarea id="imessage"></textarea>
-            </div>
-            <button type="submit">ENVOYER</button>
-            </section>
+                <div class="part-form">
+                    <label for="imessage">Message:</label>
+                    <textarea id="imessage"></textarea>
+                </div>
+                <button type="submit">ENVOYER</button>
+            </form>
+        </section>
+
     </main>
     <footer>
 

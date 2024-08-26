@@ -20,11 +20,17 @@ body {
     width: 100%;
 }
 
+
 header {
 width: 100%;
 }
 
-
+.menu {
+ height: 50px;
+ flex-direction: row;
+ font-family: Heavitas;
+ align-items: center;
+}
 
 section {
     width: 100%;
@@ -36,7 +42,7 @@ nav {
     
     width: 100%;
     
-    height: 50px;
+    height: inherit;
     background-color: #211e21;
     justify-content: space-between;
     align-items: center;
@@ -44,16 +50,21 @@ nav {
     
 }
 
+/*  Header    */
+
 .logo-holder {
     color: white;
-
-
+    height: inherit;
+    display: flex;
+    align-items: center;
 }
 
 .links {
  display:flex;
- justify-content: space-between;
+ justify-content: space-around;
  width: 20%;
+ height: inherit;
+ align-items: center;
 
 
 }
@@ -70,6 +81,12 @@ nav {
  color:#2fa1d1;
  
 
+}
+
+#name-zak {
+    display: flex;
+    flex-direction: row;
+    color: white;
 }
 
 
