@@ -174,13 +174,13 @@ button {
 width:100px;
 display: flex;
 flex-direction: column;
-
+height:auto;
 
 
 }
 
 button:hover {
- 
+ color: #31a2d2;
 }
 
 
