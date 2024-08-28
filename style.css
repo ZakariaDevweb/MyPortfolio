@@ -171,7 +171,10 @@ textarea {
 }
 
 button {
-height: 50%
+width:100px;
+display: flex;
+flex-direction: column;
+
 }
 
 button:hover {
