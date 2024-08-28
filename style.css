@@ -32,8 +32,9 @@ width: 100%;
 
 .menu {
  height: 50px;
- flex-direction: row;
+ display: flex;
  font-family: Heavitas;
+ flex-direction: row;
  align-items: center;
 }
 
