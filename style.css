@@ -180,11 +180,13 @@ textarea {
 }
 
 button {
-width:100px;
+width:150px;
+display: grid;
 display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
+
 
 }
 
