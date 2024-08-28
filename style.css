@@ -94,6 +94,7 @@ nav {
 #hero {
 background-color: #232023 ;
 display: flex;
+background-image: url(./assets/img/bkg.png);
 
 
 }
@@ -127,6 +128,13 @@ width: 50vh;
 
 #hero-mascott-container {
  src: url(/assets/img/tigre.png);
+}
+
+.back-mascott,
+.front-masscot{
+    width: 50vh;
+    height: auto;
+    position: relative;
 }
 
 
