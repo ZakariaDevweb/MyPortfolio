@@ -149,9 +149,10 @@ background-color: #232023;
 #contact {
  background-color: #1d1a1d;
  color: white;
- height:100px ;
+ height:150px ;
  display: flex;
 flex-direction: column;
+
 }
 
 .part-form {
