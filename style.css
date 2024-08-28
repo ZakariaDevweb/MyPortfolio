@@ -64,7 +64,6 @@ nav {
 .links {
  display:flex;
  justify-content: space-around;
- width: 20%;
  height: inherit;
  align-items: center;
 
@@ -103,6 +102,7 @@ display: flex;
 color:  white;
 display: flex;
 background-color: #232023;
+flex-direction: column;
 
 }
 
