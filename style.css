@@ -165,15 +165,16 @@ background-color: #111011;
 input,
 textarea {
  background-color: #111011;
+ color: white;
 
 }
 
 button {
- background-color: #9f9d9f;
+ height: 50%;
 }
 
 button:hover {
- background-color:#31a2d2 ;
+ 
 }
 
 
