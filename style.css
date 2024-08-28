@@ -139,11 +139,19 @@ background-color: #232023;
 .project {
   background-color: #e5e2e5;
    height: 100px;
+   color: #31a2d2;
 }
 
-.header-project,
-.body-project,
-.footer-project {}
+.header-project{
+color: #d7d4d7;
+
+}
+.body-project {
+ color: #31a2d2;
+}
+.footer-project {
+ color: #edebed;
+}
 
 
 #contact {
