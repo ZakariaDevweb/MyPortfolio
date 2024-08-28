@@ -167,10 +167,11 @@ textarea {
  background-color: #111011;
  color: white;
 
+
 }
 
 button {
- height: 50%;
+height: 50%
 }
 
 button:hover {
