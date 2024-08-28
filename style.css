@@ -137,6 +137,7 @@ background-color: #232023;
     background-color: #e5e2e5;
     display: flex;
     height: 100px;
+    flex-direction: column;
 }
 
 .project {
@@ -153,7 +154,8 @@ background-color: #232023;
  background-color: #1d1a1d;
  color: white;
  height:100px ;
-
+ display: flex;
+flex-direction: column;
 }
 
 .part-form {
@@ -166,7 +168,8 @@ background-color: #111011;
 
 input,
 textarea {
- background-color: #111011 ;
+ background-color: #111011;
+
 }
 
 button {
