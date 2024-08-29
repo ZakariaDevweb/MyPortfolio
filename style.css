@@ -240,25 +240,34 @@ width: 100%;
 
  }
 
+ #contact-form {
+    width: 30%;
+ }
 
 .part-form {
-    background-color: #111011;
+    display: flex;
+    width: 100%;
+ 
+
+  
 }
 
 label {
-background-color: #111011;
-width: 100px;
+background-color: black;
+flex: 2 ;
+
 }
 
 input,
 textarea {
- background-color: #111011;
+ background-color: black;
  color: white;
- width: 100px;
+ flex: 4;
+
 }
 
 button {
-width:100px;
+
 display: flex;
 flex-direction: column;
 justify-content: center;
