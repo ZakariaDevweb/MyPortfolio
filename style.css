@@ -105,6 +105,7 @@ display: flex;
 background-color: #232023;
 flex-direction: column;
 width: 50vh;
+max-width: 100%;
 
 }
 
