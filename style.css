@@ -95,7 +95,9 @@ nav {
 background-color: #232023 ;
 display: flex;
 background-image: url(./assets/img/bkg.png);
-
+position: relative;
+overflow: hidden;
+height: 45vh;
 
 }
 
@@ -104,13 +106,21 @@ color:  white;
 display: flex;
 background-color: #232023;
 flex-direction: column;
-width: 50vh;
+width: 25%;
 max-width: 100%;
-padding: 50px;
+padding: 20px;
+position: absolute;
+left: 8.5%;
+top: 25%;
+
+
+
 
 }
-
-
+h1{
+ font-family: Heavitas;
+ font-size: 20px;
+}
 #description {
  color: white;
  background: #232023;
@@ -118,8 +128,12 @@ padding: 50px;
 
 }
 
+#description p {
+    font-family: PixelSplitter-Bold ;
+    font-size: 10px;
+}
 #title-link a {
- display: grid;
+
 
 
 }
@@ -129,39 +143,78 @@ padding: 50px;
 }
 
 #hero-mascott-container {
- src: url(/assets/img/tigre.png);
+ position: absolute;
+ width: 35%;
+ right: 0;
+top:10%;
+ 
+
 }
 
 .back-mascott,
-.front-masscot{
-    width: 50vh;
-    height: auto;
-    position: relative;
+.front-mascott{
+    width: 100%;
+    position: absolute;
+    top:0;
+    right: 0;
 }
 
 
 #projects {
     background-color: #e5e2e5;
     display: flex;
-    height: 100px;
     flex-direction: column;
+    background: rgb(173,171,173);
+background: linear-gradient(0deg, rgba(173,171,173,1) 0%, rgba(231,229,231,1) 100%);
+}
+#projects h2{
+  font-family:PixelSplitter-Bold ;
+  font-size: 14px;
+  margin-top: 3vh;
+  font-weight: 200;
 }
 
-.project {
-  background-color: #e5e2e5;
-   height: 100px;
-   color: #31a2d2;
+#project-containers{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 5%;
 }
+.project {
+   color: #31a2d2;
+   max-width: 20%;
+   display: flex;
+   flex-wrap: wrap ;
+   flex-direction: column; 
+}
+
 
 .header-project{
-background-color: #d7d4d7;
+font-family:PixelSplitter-Bold;
+font-size: 12px;
+padding: 5%;
+background-color: transparent;
+
 
 }
 .body-project {
- background-color: #31a2d2;
+ max-width: 100%;
 }
+.body-project img{
+    object-fit: cover;
+    max-width: 100%;
+
+}
+
 .footer-project {
- background-color: #edebed;
+ background-color: white;
+ font-family: PixelSplitter-Bold;
+ font-size: 10px;
+ padding: 5%;
+ width: 100%;
+ text-align: center;
+ color: black;
+ margin-top: -0.5vh;
 }
 
 
@@ -172,7 +225,22 @@ background-color: #d7d4d7;
  display: flex;
 flex-direction: column;
 justify-content: center;
+font-family: PixelSplitter-Bold;
+font-size: 15px;
+width: 100%;
 }
+
+  .contact h2 {
+    font-family:PixelSplitter-Bold;
+    font-size: 16px;
+    width: 100%;
+    padding:5%;
+    text-align: center;
+    background-color: black;
+    color: white;
+    
+ }
+
 
 .part-form {
     background-color: #111011;
