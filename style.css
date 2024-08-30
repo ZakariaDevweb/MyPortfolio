@@ -256,6 +256,8 @@ position: relative;
     border: 2px solid white;
     background: black;
     z-index: 5;
+    display: flex;
+  flex-direction: row;
  }
 
  #contact-form {
@@ -275,20 +277,23 @@ position: relative;
     height: 12vh;  
     z-index: 4;
  }
-.part-form {
-    display: flex;
-    width: 100%;
-    margin-bottom: 20px;
-  
-
-  
-}
-
-label {
-background-color: black;
-flex: 2 ;
+#left-form{
+ display: flex;
+flex-direction: column;
 text-align: right;
 padding-right: 20px;
+flex:2;
+
+}
+
+#right-form{
+    display: flex;
+    flex-direction: column;
+    flex: 4;
+}
+label {
+background-color: black;
+
 
 }
 
@@ -296,7 +301,6 @@ input,
 textarea {
  background-color: black;
  color: white;
- flex: 4;
  border: none;
 
 }
