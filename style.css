@@ -252,12 +252,13 @@ position: relative;
     
  }
  #cadre{
-    padding: 20px;
+    padding: 20px 60px;
     border: 2px solid white;
     background: black;
     z-index: 5;
     display: flex;
   flex-direction: row;
+
  }
 
  #contact-form {
@@ -293,7 +294,9 @@ flex-grow:2;
 }
 label {
 background-color: black;
-
+text-align: right;
+width: 100%;
+margin-bottom: 10px;
 
 }
 
@@ -302,6 +305,7 @@ textarea {
  background-color: black;
  color: white;
  border: none;
+ margin-bottom: 10px;
 
 }
 
