@@ -10,21 +10,21 @@
         "name": "Kasa",
         "id": 2,
         "pathimage": "assets/img/Kasa.png",
-        "urlrender": "githubpages.com/monurl-projet2",
+        "urlrender": "https://zakariadevweb.github.io/Kasa/",
         "githubrepo": "https://github.com/ZakariaDevweb/Kasa"
     },
     {
         "name": "Nina Carducci",
         "id": 3,
         "pathimage": "assets/img/NinaCarducci.png",
-        "urlrender": "githubpages.com/monurl-projet3",
+        "urlrender": "https://zakariadevweb.github.io/Nina-Carducci-/",
         "githubrepo": "https://github.com/ZakariaDevweb/Nina-Carducci-"
     },
     {
         "name": "Sophie Bluel",
         "id": 4,
         "pathimage": "assets/img/Sophie_Bluel.png",
-        "urlrender": "githubpages.com/monurl-projet4",
+        "urlrender": "https://zakariadevweb.github.io/sophiebluel/",
         "githubrepo": "https://github.com/ZakariaDevweb/sophiebluel"
     }
 ]
