@@ -25,6 +25,11 @@
         "id": 4,
         "pathimage": "assets/img/Sophie_Bluel.png",
         "urlrender": "https://zakariadevweb.github.io/sophiebluel/",
-        "githubrepo": "https://github.com/ZakariaDevweb/sophiebluel"
+        "githubrepo": "https://github.com/ZakariaDevweb/sophiebluel",
+        "description": "",
+        "competences":["assets/icons.png"
+              
+
+        ]
     }
 ]
