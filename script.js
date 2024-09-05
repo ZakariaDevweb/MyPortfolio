@@ -17,6 +17,9 @@ async function getProjects() {
                 <a href="${project.githubrepo}">
                     <div class="footer-project">👑 Lien Github 👑</div>
                 </a>
+                 <a "${project.description}">
+                 <div class="description-project">${project.description}</div>
+                </a>
             </div>`
             containers.innerHTML += projectHtml
 
