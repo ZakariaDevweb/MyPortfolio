@@ -9,6 +9,7 @@ async function getProjects() {
         }
         const projects = await response.json();
         projects.forEach(project => {
+            let competenceshtml = project.competences.map(competence => `<div>${competence}</div>`).join("")
             const projectHtml = `<div class=" project">
                 <a href="${project.urlrender}">
                     <div class="header-project">${project.name}</div>
@@ -19,6 +20,7 @@ async function getProjects() {
                 </a>
                  <a "${project.description}">
                  <div class="description-project">${project.description}</div>
+                 <div class="competences-project">${competenceshtml}</div>
                 </a>
             </div>`
             containers.innerHTML += projectHtml

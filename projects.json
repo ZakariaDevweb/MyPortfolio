@@ -44,7 +44,7 @@
     {
         "name": "Sophie Bluel",
         "id": 4,
-        "pathimage": "assets/img/Sophie Bluel.png",
+        "pathimage": "assets/img/Sophie_Bluel.png",
         "urlrender": "githubpages.com/monurl-projet4",
         "githubrepo": "https://github.com/ZakariaDevweb/sophiebluel",
         "description": "Création d'un site dynamique avec Javascript et communication avec une API",
