@@ -7,11 +7,21 @@
     <title> Portfolio de Zakaria</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
-
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "Uq0RD8kY54DMIlekn",
+      });
+   })();
+</script>
 </head>
 
 <body>
     <header>
+    
 
         <div class="menu">
 
@@ -22,7 +32,8 @@
                 <div class="links">
                     <!-- ici integrer une liste -->
                     <a href="#">accueil</a>
-                    <a href="#hero">A propos</a>
+                    <a href="#hero">Mon CV</a>
+                    <a href="#about">Mon profil</a>
                     <a href="#projects">projets</a>
                     <a href="#contact">contact</a>
 
@@ -48,6 +59,31 @@
                 <img class="back-mascott" src="assets/img/splatter.png" alt="">
                 <img class="front-mascott" src="assets/img/tigre.png" alt="">
 
+            </div>
+
+        </section>
+        <section id="about">
+            <h2>MON PROFIL</h2>
+            <div id="dual-info">
+                <div id="photo">
+                    <img id="profile-picture" src="assets/img/profil-photo.jpg" alt="photo de profil">
+                </div>
+                <div id="about-container">
+                    <p>Apres avoir valide ma formation Developpeur Informatique, me voila diplôme. Je suis passionne par
+                        le
+                        Developpement Front-End et la cybersecurite. J'aime apprendre continuellement.</p>
+
+                    <p>Passionne par l'informatique, le developpement web et la cybersecurite, je mele les 3 domaines
+                        dans
+                        mon apprentissage au quotidien. JE souhaite realiser des projets divers tout en gardant a
+                        l'esprit
+                        l'idee qu'ils soient le plus securises possible et j'aime faire en sorte que les clients soient
+                        satisfait a la fois d'avoir un produit fonctionnel, de qualite et au design irreprochage mais en
+                        plus qu'ils restent en securite grace a mes connaissances sur le sujet.</p>
+
+                    <p>Je suis aussi oriente cybersecurite et l'un de mes objectifs et a long terme de developper au
+                        maximum mes competences en la matiere.</p>
+                </div>
             </div>
 
         </section>
