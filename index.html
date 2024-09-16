@@ -7,58 +7,49 @@
     <title> Portfolio de Zakaria</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
-    <script type="text/javascript"
-        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
-</script>
-<script type="text/javascript">
-   (function(){
-      emailjs.init({
-        publicKey: "Uq0RD8kY54DMIlekn",
-      });
-   })();
-</script>
+    <link rel="stylesheet" href="menu.css">
 </head>
 
 <body>
-    <header>
-    
 
+    <header>
         <div class="menu">
 
             <nav>
                 <div class="logo-holder">
-                    ZAKARIA
+                    <div>ZAKARI</div>
+                    <div>A</div>
                 </div>
-                <div class="links">
-                    <!-- ici integrer une liste -->
-                    <a href="#">accueil</a>
-                    <a href="#hero">Mon CV</a>
-                    <a href="#about">Mon profil</a>
-                    <a href="#projects">projets</a>
-                    <a href="#contact">contact</a>
-
+                <div id="toggle-links">
+                    <div class="links" id="links">
+                        <a href="#">accueil</a>
+                        <a href="#hero">Mon CV</a>
+                        <a href="#about">Mon profil</a>
+                        <a href="#projects">projets</a>
+                        <a href="#contact">contact</a>
+                    </div>
+                    <div id="nav-toggle" class=""><span></span></div>
                 </div>
             </nav>
+
         </div>
     </header>
+
     <main>
         <section id="hero">
-            <div id="hero-title-container">
-                <h1>Zakaria Developpeur Front-End</h1>
-                <div id="description">
-                    <p> je m'apelle Zakaria j'ai 22 ans je suis passionne par l'informatique , le developpement web et
-                        notamment la cybersecurite. j'aime la creativite</p>
+            <div id="banner">
+                <div id="hero-title-container">
+                    <h1>Zakaria Developpeur Front-End</h1>
+                    <div id="description">
+                        <p> je m'apelle Zakaria j'ai 22 ans je suis passionne par l'informatique , le developpement web
+                            et
+                            notamment la cybersecurite. j'aime la creativite</p>
+                    </div>
+                    <a href="./assets/documents/MESSALIZakariaCV.pdf" download="Mon CV " class="btn"> > TELECHARGER MON
+                        CV</a>
                 </div>
-                <a href="./assets/documents/MESSALIZakariaCV.pdf" download="Mon CV " class="btn"> > TELECHARGER MON CV
-                </a>
 
             </div>
-
-            </div>
-            <div id="hero-mascott-container">
-                <img class="back-mascott" src="assets/img/splatter.png" alt="">
-                <img class="front-mascott" src="assets/img/tigre.png" alt="">
-
             </div>
 
         </section>
@@ -69,50 +60,30 @@
                     <img id="profile-picture" src="assets/img/profil-photo.jpg" alt="photo de profil">
                 </div>
                 <div id="about-container">
-                    <p>Apres avoir valide ma formation Developpeur Informatique, me voila diplôme. Je suis passionne par
+                    <p>Après avoir validé ma formation Développeur Informatique, me voilà diplômé. Je suis passionné par
                         le
-                        Developpement Front-End et la cybersecurite. J'aime apprendre continuellement.</p>
-
-                    <p>Passionne par l'informatique, le developpement web et la cybersecurite, je mele les 3 domaines
+                        Développement Front-End et la cybersécurité. J'aime apprendre continuellement.</p>
+                    <p>Passionnée par l'informatique, le développement web et la cybersécurité, je mêle les 3 domaines
                         dans
-                        mon apprentissage au quotidien. JE souhaite realiser des projets divers tout en gardant a
+                        mon apprentissage au quotidien. JE souhaite réaliser des projets divers tout en gardant à
                         l'esprit
-                        l'idee qu'ils soient le plus securises possible et j'aime faire en sorte que les clients soient
-                        satisfait a la fois d'avoir un produit fonctionnel, de qualite et au design irreprochage mais en
-                        plus qu'ils restent en securite grace a mes connaissances sur le sujet.</p>
-
-                    <p>Je suis aussi oriente cybersecurite et l'un de mes objectifs et a long terme de developper au
-                        maximum mes competences en la matiere.</p>
+                        l'idée qu'ils soient le plus sécurisés possible et j'aime faire en sorte que les clients soient
+                        satisfait à la fois d'avoir un produit fonctionnel, de qualité et au design irréprochage mais en
+                        plus qu'ils restent en sécurité grâce à mes connaissances sur le sujet.</p>
+                    <p>Je suis aussi orienté cybersécurité et l'un de mes objectifs et à long terme de développer au
+                        maximum mes compétences en la matière.</p>
                 </div>
             </div>
 
         </section>
+
         <section id="projects">
             <h2>MES PROJETS</h2>
             <div id="project-containers">
             </div>
         </section>
-        <section id="contact">
-            <h2>CONTACTEZ-MOI</h2>
-            <form id="contact-form">
-                <div id="cadre">
-                    <div id="left-form">
-                        <label for="iname">nom:</label>
-                        <label for="firstname">Prenom:</label>
-                        <label for="imessage">Message:</label>
-                    </div>
-                    <div id="right-form">
-                        <input id="iname" class="cname" name="nname" placeholder="tartanpion" type="text"></imput>
-                        <input id="firstname" class="cfirstname" name="nfirstname" placeholder="tartanpion" type="text">
-                        </imput>
-                        <textarea id="imessage" rows="7"></textarea>
-                    </div>
-                </div>
-                <button type="submit">ENVOYER</button>
-            </form>
-            <div id="bandeau">
-            </div>
-        </section>
+
+
 
     </main>
     <footer>
@@ -125,6 +96,7 @@
     </footer>
 
     <script src="script.js"></script>
+    <script src="menu.js"></script>
 </body>
 
 </html>

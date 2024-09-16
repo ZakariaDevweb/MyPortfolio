@@ -1,52 +1,40 @@
-const containers = document.getElementById("project-containers");
 
-async function getProjects() {
+const containerProjects = document.querySelector("#project-containers");
+
+async function fetchProjects() {
     try {
-        const response = await fetch("projects.json");
-        if (!response.ok) {
-            throw new Error(`error client : ${response.status}`);
+        const response = await fetch("./projects.json");
 
+        if (!response.ok) {
+            throw new Error(`Erreur HTTP : ${response.status}`);
         }
-        const projects = await response.json();
-        projects.forEach(project => {
-            let competenceshtml = project.competences.map(competence => `<div>${competence}</div>`).join("")
-            const projectHtml = `<div class=" project">
+
+        const json = await response.json();
+
+        json.forEach(project => {
+            const competencesHtml = project.competences.map(competence => `<div>${competence}</div>`).join('');
+
+            const projectHtml =
+                `<div class="project">
                 <a href="${project.urlrender}">
                     <div class="header-project">${project.name}</div>
                     <div class="body-project"><img src="${project.pathimage}"></div>
                 </a>
                 <a href="${project.githubrepo}">
-                    <div class="footer-project">👑 Lien Github 👑</div>
-                </a>
-                 <a "${project.description}">
-                 <div class="description-project">${project.description}</div>
-                 <div class="competences-project">${competenceshtml}</div>
+                    <div class="competences-project">
+                        <span>${competencesHtml}</span>
+                    </div>
+                    <div class="description-project">${project.description}</div>
+                    <div class="footer-project">Lien Github</div>
                 </a>
             </div>`
-            containers.innerHTML += projectHtml
 
+            containerProjects.innerHTML += projectHtml;
+        })
 
-        });
-
-     
     } catch (error) {
-        console.error(`les projets sont impossible a charger: ${error}`);
-
+        console.error(`Impossible d'obtenir les projets : ${error}`);
     }
-
-};
-
-getProjects();
-window.onload = function() {
-    document.getElementById('contact-form').addEventListener('submit', function(event) {
-        event.preventDefault();
-        // these IDs from the previous steps
-        emailjs.sendForm('service_42hzjhn', 'template_5agjrio', this)
-            .then(() => {
-                console.log('SUCCESS!');
-            }, (error) => {
-                console.log('FAILED...', error);
-            });
-    });
 }
 
+fetchProjects();
