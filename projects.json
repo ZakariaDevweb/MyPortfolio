@@ -5,7 +5,7 @@
         "pathimage": "assets/img/ArgentBank.png",
         "urlrender": "githubpages.com/",
         "githubrepo": "https://github.com/ZakariaDevweb/ArgentBank-Project",
-        "description": "Ecrire des appels API REST pour connecter un front au back et modéliser une API",
+        "description": "Ecrire des appels API REST pour connecter un front au back et modeliser une API",
         "competences": [
             "HTML",
             "CSS",
@@ -20,7 +20,7 @@
         "pathimage": "assets/img/Kasa.png",
         "urlrender": "https://zakariadevweb.github.io/Kasa/",
         "githubrepo": "https://github.com/ZakariaDevweb/Kasa",
-        "description": "Implémenter le front end d'une application de location de logement et Utilisation de React et React Router",
+        "description": "Implementer le front end d'une application de location de logement et Utilisation de React et React Router",
         "competences": [
             "HTML",
             "CSS",
@@ -33,7 +33,7 @@
         "pathimage": "assets/img/NinaCarducci.png",
         "urlrender": "https://zakariadevweb.github.io/Nina-Carducci-/",
         "githubrepo": "https://github.com/ZakariaDevweb/Nina-Carducci-",
-        "description": "Mise en place des bonnes pratiques SEO et d'accessibilité pour apparaître en tête des résultats de recherches Google",
+        "description": "Mise en place des bonnes pratiques SEO et d'accessibilite pour apparaître en tête des resultats de recherches Google",
         "competences": [
             "HTML",
             "CSS",
@@ -47,7 +47,7 @@
         "pathimage": "assets/img/Sophie_Bluel.png",
         "urlrender": "https://zakariadevweb.github.io/sophiebluel/",
         "githubrepo": "https://github.com/ZakariaDevweb/sophiebluel",
-        "description": "Création d'un site dynamique avec Javascript et communication avec une API",
+        "description": "Creation d'un site dynamique avec Javascript et communication avec une API",
         "competences": [
             "HTML",
             "CSS",
