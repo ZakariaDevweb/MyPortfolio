@@ -41,7 +41,7 @@ function toggleBurger() {
         linksToggled.classList.remove('linksToggled');
     }
     // alors on ajoute la classe toggled au menu
-    // sinon on retire la classe toggled et on met la classe notToggled à la place
+    // sinon on retire la classe toggled et on met la classe notToggled a la place
 }
 
 function adjustTabs() {
